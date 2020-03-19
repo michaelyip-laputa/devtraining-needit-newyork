@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Admin Table" max_length="40" name="x_58872_needit_admin_table" type="collection">
+        <element choice="1" default="a" label="Admin Type" max_length="200" name="admin_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="a" value="a"/>
+                <element inactive_on_update="false" label="c" value="c1"/>
+            </choice>
+        </element>
+        <element display="true" label="Description" max_length="200" name="description" type="string"/>
+    </element>
+</database>
